@@ -11,7 +11,7 @@ This project relies on experimental features of Blender that is not merged into 
 - [macOS](https://developer.blender.org/docs/handbook/building_blender/mac/)
 - [Windows](https://developer.blender.org/docs/handbook/building_blender/windows/)
 
-Clone the previously mentioned blender branch with the provided commit hash:
+Clone the previously mentioned Blender branch with the provided commit hash:
 ```
 git clone https://projects.blender.org/bebop_artist/blender.git
 git checkout 56e57acc34ed495933bb7213eff54288df18881d
@@ -24,6 +24,10 @@ make
 This should create a build folder in the parent directory `../build_<platform>_<build_type>_<architecture>_<compiler_used>/`. Binary executable for Blender should be in `../build_<platform>_<build_type>_<architecture>_<compiler_used>/bin/`.
 
 Using the built Blender executable you can open `.blend` files in `/blends/` folder.
+
+### Example Figure Script
+
+Run the [`generate_figure.bat`](scripts/generate_figure.bat) to do all the steps above in a Windows machine. It will clone the Blender source code, build it and run Blender with one of the files in the `blends` directory and show an example 3D scene. Generated figure will be in `images/example_figure_1.jpg`
 
 ## Documentation
 
