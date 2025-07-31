@@ -31,3 +31,4 @@ Using the built Blender executable you can open `.blend` files in `/blends/` fol
 - [`RANDOM_MESH.blend`](blends/RANDOM_MESH.blend): Generates links from Voronoi tesselation of point clouds either defined by user or randomly generated.
 - [`WS_LINKS.blend`](blends/WS_LINKS.blend): Generates and enumerates linked-structures for different Wigner-Seitz cells.
 - [`NS_CUBIC.blend`](blends/NS_CUBIC.blend): Selectively puts edge-based links depending provided shape value `n` and shifting values `s1` and `s2`.
+- [`MANUAL.blend`](blends/MANUAL.blend): Manual mesh based linked structure generator.
